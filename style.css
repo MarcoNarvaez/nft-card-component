@@ -6,10 +6,8 @@ body {
 .container {
     background-color: hsl(216, 50%, 16%);
     border-radius: 20px;
-    position: relative;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     margin: 36%;
     padding: 30px;
 }
@@ -41,4 +39,9 @@ body {
     color: white;
     margin-top: 3%;
     text-align: center;
+}
+
+.price-timer {
+    display: flex;
+    justify-content: space-between;
 }
