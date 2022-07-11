@@ -35,13 +35,14 @@ body {
     text-align: end;
 }
 
-.created {
-    color: white;
-    margin-top: 3%;
-    text-align: center;
-}
-
 .price-timer {
     display: flex;
     justify-content: space-between;
+}
+
+.created {
+    color: white;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
 }
